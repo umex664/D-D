@@ -1,0 +1,3075 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "SpawnofTiamat",
+				"abbreviation": "SoT",
+				"full": "Spawn of Tiamat",
+				"url": "",
+				"authors": [],
+				"convertedBy": [
+					"Umex664"
+				]
+			}
+		],
+		"dateAdded": 1591709319,
+		"dateLastModified": 1591709319
+	},
+	"monster": [
+		{
+			"name": "BLACKSPAWN RAIDER",
+			"source": "SpawnofTiamat",
+			"page": 0,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"dragonspawn"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 60,
+				"formula": "8d8 + 24"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 15,
+			"con": 16,
+			"int": 10,
+			"wis": 11,
+			"cha": 8,
+			"skill": {
+				"athletics": "+5",
+				"perception": "+3",
+				"stealth": "+5",
+				"survival": "+3"
+			},
+			"senses": [
+				"darvkision 60 ft."
+			],
+			"passive": 12,
+			"immune": [
+				"acid"
+			],
+			"conditionImmune": [
+				"paralyzed"
+			],
+			"languages": [
+				"Common",
+				"Draconic"
+			],
+			"cr": "6",
+			"trait": [
+				{
+					"name": "Ambush",
+					"entries": [
+						"In the first round of a combat, the blackspawn raider has advantage on attack rolls against any creature it surprised."
+					]
+				},
+				{
+					"name": "Blessed of Tiamat",
+					"entries": [
+						"The blackspawn has advantage on saving throws against being {@condition charmed}, and magic can't put the blackspawn to sleep."
+					]
+				},
+				{
+					"name": "Cunning Action",
+					"entries": [
+						"On each of its turns, the blackspawn raider can use a bonus action to take the Dash, Disengage, or Hide action."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The blackspawn raider makes two melee attacks."
+					]
+				},
+				{
+					"name": "• Falchion",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "• Javelin",
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range 30/120 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "Acid Breath {@recharge 5}",
+					"entries": [
+						"The blackspawn raider exhales acid in a 15-foot line that is 5 feet wide. Each creature in that line must make a {@dc 13} Dexterity saving throw, taking 22 ({@damage 5d8}) acid damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"This black-scaled humanoid has yellow eyes, a maw full of sharp teeth, and downward-curved horns. Blackspawn raiders are shock troops, led by blackspawn exterminators to overwhelm opponents with sheer numbers and their fearsome acid breath. Blackspawn raiders travel in pairs of two and primarily rely on ambush, stalking their prey until they catch it in a vulnerable moment. When four are encountered, they may be led by a blackspawn exterminator."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.pinimg.com/originals/1d/94/b5/1d94b5110dc8acd81ee770af87de29bd.jpg"
+						}
+					}
+				]
+			},
+			"traitTags": [
+				"Ambusher"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"DR"
+			],
+			"damageTags": [
+				"A",
+				"P"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RW",
+				"THW"
+			]
+		},
+		{
+			"name": "BLACKSPAWN EXTERMINATOR",
+			"source": "SpawnofTiamat",
+			"page": 0,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"dragonspawn"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item studded leather armor|PHB|studded leather}"
+					]
+				}
+			],
+			"hp": {
+				"average": 91,
+				"formula": "14d8 + 28"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 22,
+			"con": 14,
+			"int": 10,
+			"wis": 14,
+			"cha": 11,
+			"save": {
+				"dex": "+11",
+				"int": "+5"
+			},
+			"skill": {
+				"acrobatics": "+11",
+				"athletics": "+8",
+				"perception": "+7",
+				"stealth": "+11",
+				"survival": "+7"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 17,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from non-magical attacks"
+				},
+				"poison"
+			],
+			"immune": [
+				"acid"
+			],
+			"conditionImmune": [
+				"paralyzed"
+			],
+			"languages": [
+				"Thieves' cant",
+				"Common",
+				"Draconic"
+			],
+			"cr": "13",
+			"trait": [
+				{
+					"name": "Assassinate",
+					"entries": [
+						"During its first turn, the blackspawn exterminator has advantage on attack rolls against any creature that hasn't taken a turn. Any hit the blackspawn exterminator scores against a surprised creature is a critical hit."
+					]
+				},
+				{
+					"name": "Blessed of Tiamat",
+					"entries": [
+						"The blackspawn has advantage on saving throws against being {@condition charmed}, and magic can't put the blackspawn to sleep."
+					]
+				},
+				{
+					"name": "Ethereal Jaunt",
+					"entries": [
+						"As a bonus action, the blackspawn exterminator can magically shift from the Material Plane to the Ethereal",
+						"Plane, or vice versa."
+					]
+				},
+				{
+					"name": "Evasion",
+					"entries": [
+						"If the blackspawn exterminator is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the blackspawn exterminator instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+					]
+				},
+				{
+					"name": "Standing Leap",
+					"entries": [
+						"The blackspawn's long jump is up to 20 feet and its high jump is up to 10 feet, with or without a running start."
+					]
+				},
+				{
+					"name": "Sneak Attack",
+					"entries": [
+						"Once per turn, the blackspawn exterminator deals an extra 14 ({@damage 4d6}) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the blackspawn exterminator that isn't {@condition incapacitated} and the blackspawn exterminator doesn't have disadvantage on the attack roll."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The blackspawn exterminator makes two shortsword attacks."
+					]
+				},
+				{
+					"name": "• +1 Shortsword",
+					"entries": [
+						"Melee Weapon Attack. {@hit 12} to hit, reach 5 ft., one target. {@h}10 ({@damage 1d6 + 7}) piercing damage, and the target must make a {@dc 15} Constitution saving throw, taking 24 ({@damage 7d6}) poison damage on a failed save, or half as much damage on a successful one."
+					]
+				},
+				{
+					"name": "• +1 Shortbow",
+					"entries": [
+						"Ranged Weapon Attack. {@hit 12} to hit, range",
+						"80/320 ft., one target. {@h}10 ({@damage 1d6 + 7}) piercing damage, and the target must make a {@dc 15} Constitution saving throw, taking 24 ({@damage 7d6}) poison damage on a failed save, or half as much damage on a successful one."
+					]
+				},
+				{
+					"name": "Acid Breath {@recharge 5}",
+					"entries": [
+						"The blackspawn exterminator exhales acid in a 15-foot line that is 5 feet wide. Each creature in that line must make a {@dc 19} Dexterity saving throw, taking 22 ({@damage 5d8}) acid damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"This black-scaled humanoid is cloaked in dark robes and wields a wicked sword with a shortbow draped across its back. Its yellow eyes gleam with malicious intelligence. Exterminators are faster and stealthier than blackspawn raiders but no less dangerous. Exterminators act as leaders of raiders, with lightning ambushes against foes when they least expect it. Their ability to ethereally jaunt in and out of combat makes them particularly effective in separating out targets from a crowd. Blackspawn exterminators are assassins first and foremost. They specialize in attacking from nowhere and then disappearing before their victims can rally a coherent defense."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.pinimg.com/originals/1d/94/b5/1d94b5110dc8acd81ee770af87de29bd.jpg"
+						}
+					}
+				]
+			},
+			"traitTags": [
+				"Sneak Attack"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"DR",
+				"TC"
+			],
+			"damageTags": [
+				"A",
+				"I",
+				"P"
+			],
+			"miscTags": [
+				"AOE",
+				"RNG"
+			],
+			"conditionInflict": [
+				"incapacitated"
+			]
+		},
+		{
+			"name": "BLACKSPAWN STALKER",
+			"source": "SpawnofTiamat",
+			"page": 0,
+			"size": "L",
+			"type": {
+				"type": "monstrosity",
+				"tags": [
+					"dragonspawn"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 105,
+				"formula": "10d10 + 50"
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 40
+			},
+			"str": 23,
+			"dex": 15,
+			"con": 21,
+			"int": 5,
+			"wis": 13,
+			"cha": 11,
+			"skill": {
+				"athletics": "+10",
+				"perception": "+5",
+				"stealth": "+6",
+				"survival": "+5"
+			},
+			"senses": [
+				"darkvision 60 ft.",
+				"tremorsense 60 ft."
+			],
+			"passive": 15,
+			"immune": [
+				"acid"
+			],
+			"languages": [
+				"Draconic"
+			],
+			"cr": "9",
+			"trait": [
+				{
+					"name": "Charge",
+					"entries": [
+						"If the blackspawn stalker moves at least 20 feet straight toward a target and then hits it with a gore attack on the same turn, the target takes an extra 9 ({@damage 2d8}) piercing damage. If the target is a creature, it must succeed on a {@dc 18} Strength saving throw or be knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Confer Acid Immunity",
+					"entries": [
+						"The blackspawn stalker can grant immunity to acid damage to anyone riding it."
+					]
+				},
+				{
+					"name": "Keen Smell",
+					"entries": [
+						"The blackspawn stalker has advantage on Wisdom (Perception) checks that rely on smell."
+					]
+				},
+				{
+					"name": "Spider Climb",
+					"entries": [
+						"The blackspawn stalker can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+					]
+				},
+				{
+					"name": "Web Sense",
+					"entries": [
+						"While in contact with a web, the blackspawn stalker knows the exact location of any other creature in contact with the same web."
+					]
+				},
+				{
+					"name": "Web Walker",
+					"entries": [
+						"The blackspawn stalker ignores movement restrictions caused by webbing."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The blackspawn stalker makes three attacks: one with its bite and two with its tail slap."
+					]
+				},
+				{
+					"name": "• Bite",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one creature. {@h}13 ({@damage 2d6 + 6}) piercing damage plus 4 ({@damage 1d8}) acid damage."
+					]
+				},
+				{
+					"name": "• Tail Slap",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}10 ({@damage 1d8 + 6}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Gore",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}15 ({@damage 2d8 + 6}) piercing damage."
+					]
+				},
+				{
+					"name": "Web {@recharge 5}",
+					"entries": [
+						"{@atk rw} {@hit 6} to hit, range 30/60 ft., one Large or smaller creature. {@h}The creature is {@condition restrained} by webbing. As an action, the {@condition restrained} creature can make a {@dc 18} Strength check, escaping from the webbing on a success. The effect ends if the webbing is destroyed. The webbing has AC 10, 5 hit Points, is vulnerable to fire damage and immune to acid and bludgeoning damage."
+					]
+				},
+				{
+					"name": "Acid Breath {@recharge 5}",
+					"entries": [
+						"The blackspawn stalker exhales acid in a 15-foot line that is 5 feet wide. Each creature in that line must make a {@dc 14} Dexterity saving throw, taking 22 ({@damage 5d8}) acid damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"What you at first took for a spider is something far, far worse: a black-scaled horror with six limbs, two of which end in grasping claws. Its head has multiple horns and eyes in places where none should be, and its maw drips acid. Strangest of all are its two tails, which twitch in agitation as it descends from a web strand towards you. ",
+					"The blackspawn stalker is a curious spawn of Tiamat since it seems to have nothing in common with just about any other creature. It's possible Tiamat chose the spider form because of its sinister connotations. In combat blackspawn stalkers hide in their lairs until they spot prey, charging forth with its horns to disable foes. It then relies on webbing to tie any prone victims up and acid breath to ward off would-be rescuers. Blackspawn stalkers are more interested in eating than fighting, so they gleefully drag vulnerable prey screaming back into their webs, relying on the sticky netting to discourage pursuit."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.pinimg.com/originals/d3/d8/c7/d3d8c72af2c48d47a3b2a6aa505d465a.webp"
+						}
+					}
+				]
+			},
+			"traitTags": [
+				"Charge",
+				"Keen Senses",
+				"Spider Climb",
+				"Web Sense",
+				"Web Walker"
+			],
+			"senseTags": [
+				"D",
+				"T"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"DR"
+			],
+			"damageTags": [
+				"A",
+				"B",
+				"P"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RCH",
+				"RW"
+			],
+			"conditionInflict": [
+				"prone",
+				"restrained"
+			]
+		},
+		{
+			"name": "BLUESPAWN AMBUSHER",
+			"source": "SpawnofTiamat",
+			"page": 0,
+			"size": "M",
+			"type": {
+				"type": "monstrosity",
+				"tags": [
+					"dragonspawn"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 26,
+				"formula": "4d8 + 8"
+			},
+			"speed": {
+				"walk": 20,
+				"burrow": 20
+			},
+			"str": 19,
+			"dex": 10,
+			"con": 14,
+			"int": 3,
+			"wis": 14,
+			"cha": 13,
+			"skill": {
+				"athletics": "+7",
+				"perception": "+5",
+				"stealth": "+3"
+			},
+			"senses": [
+				"darkvision 60 ft.",
+				"tremorsense 60 ft."
+			],
+			"passive": 15,
+			"immune": [
+				"lightning"
+			],
+			"languages": [
+				"Draconic"
+			],
+			"cr": "5",
+			"trait": [
+				{
+					"name": "Keen Smell",
+					"entries": [
+						"The bluespawn ambusher has advantage on Wisdom (Perception) checks that rely on smell."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The bluespawn ambusher makes two attacks: one with its gore and one with its claws."
+					]
+				},
+				{
+					"name": "• Bite",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage."
+					]
+				},
+				{
+					"name": "• Gore",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d4 + 4}) piercing damage."
+					]
+				},
+				{
+					"name": "Lightning Burst {@recharge 5}",
+					"entries": [
+						"The bluespawn ambusher radiates lightning in a 10-foot radius. Each creature in that burst must make a {@dc 11} Dexterity saving throw, taking 22 ({@damage 4d10}) lightning damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"This blue-scaled creature has the squat build of a badger but a horn atop its head and wicked digging claws to match. Its entire body crackles with electricity. Bluespawn ambushers are blue-dragon badgers. ",
+					"In combat these monsters act like bombs, exploding up into the middle of foes to unleash their lightning burst before burrowing back down again…only to return when it recharges. Bluespawn ambushers aren't likely to last long in prolonged one-on-one combat, so they tend to act as advance troops to soften up the opposition, harrying them while larger foes engage. "
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://pm1.narvii.com/6199/22eed3cc945bc011959b1e1d62c3f433364b7a2e_00.jpg"
+						}
+					}
+				]
+			},
+			"traitTags": [
+				"Keen Senses"
+			],
+			"senseTags": [
+				"D",
+				"T"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"DR"
+			],
+			"damageTags": [
+				"L",
+				"P"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			]
+		},
+		{
+			"name": "BLUESPAWN BURROWER",
+			"source": "SpawnofTiamat",
+			"page": 0,
+			"size": "L",
+			"type": {
+				"type": "monstrosity",
+				"tags": [
+					"dragonspawn"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 20,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 114,
+				"formula": "12d10 + 58"
+			},
+			"speed": {
+				"walk": 30,
+				"burrow": 20
+			},
+			"str": 20,
+			"dex": 15,
+			"con": 19,
+			"int": 3,
+			"wis": 8,
+			"cha": 11,
+			"skill": {
+				"perception": "+3"
+			},
+			"senses": [
+				"darkvision 60 ft.",
+				"tremorsense 60 ft."
+			],
+			"passive": 13,
+			"immune": [
+				"lightning"
+			],
+			"languages": [
+				"understands Draconic but can't speak"
+			],
+			"cr": "12",
+			"trait": [
+				{
+					"name": "Bonded Mount",
+					"entries": [
+						"While mounted, the bluespawn burrower shares its senses with its rider and can be ridden while it burrows. The bonded bluespawn burrower obeys its rider's commands. If dies, the rider can train a new bluespawn burrower to serve as its bonded mount, a process requiring a month."
+					]
+				},
+				{
+					"name": "Confer Lightning Immunity",
+					"entries": [
+						"The bluespawn burrower can grant immunity to lightning damage to anyone riding it."
+					]
+				},
+				{
+					"name": "Lightning Body",
+					"entries": [
+						"A creature that touches the bluespawn burrower or hits it with a melee attack while within 5 feet of it takes 7 ({@damage 2d6}) lightning damage."
+					]
+				},
+				{
+					"name": "Saddle",
+					"entries": [
+						"The bluespawn burrower can carry a saddle on its back. One Medium or two Small creatures can ride on the saddle without squeezing. To make a melee attack against a target within 5 feet of the bluespawn stormlizard, they must use spears or weapons with reach. If the bluespawn stormalizard dies, creatures on the saddle are placed in unoccupied spaces within 5 feet of it."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The bluespawn burrower makes two attacks: one with its tail and one with its claws."
+					]
+				},
+				{
+					"name": "• Tail",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft, one target. {@h}15 ({@damage 4d4 + 5}) bludgeoning damage plus 7 ({@damage 2d6}) lightning damage."
+					]
+				},
+				{
+					"name": "• Claws",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d8 + 5}) piercing damage. If the target is Medium or smaller, it is {@condition grappled} (escape {@dc 17}). While grappling the target, the bluespawn burrower has advantage on attack rolls against it and can't use this attack against other targets. When the bluespawn burrower moves, any Medium or smaller target it is grappling moves with it."
+					]
+				},
+				{
+					"name": "Lightning Sweep {@recharge 5}",
+					"entries": [
+						"The bluespawn burrower blasts lightning in a 60-foot cone. Each creature in that cone must make a {@dc 14} Dexterity saving throw, taking 22 ({@damage 4d10}) lightning damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"This squat, lumbering blue monster is covered in lumpy scales with a white ridge of horns running down its back and culminating in a tail topped with wicked spikes. The tail crackles",
+					"with electrical energy.",
+					"Bluespawn burrowers are usually the minions of blue dragons, bursting from the ground to attack. They work in groups of up",
+					"to two, burrowing in the sand (but really, they can burrow anywhere) to attack. Unlike bluespawn ambushers, bluespawn burrowers burrow up into clumped groups of foes and then swing away with their tail, staying topside until they manage to grab a foe. Grappled foes are then dragged back down with it, burying them before returning to the fray with renewed lightning sweeps. They are often used as mounts by other humanoid dragonspawn, making them particularly effective in delivering troops to the front lines."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://pm1.narvii.com/6199/a935714a012fb5886b377407528f3acbafc4299f_00.jpg"
+						}
+					}
+				]
+			},
+			"senseTags": [
+				"D",
+				"T"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"CS",
+				"DR"
+			],
+			"damageTags": [
+				"B",
+				"L",
+				"P"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			],
+			"conditionInflict": [
+				"grappled"
+			]
+		},
+		{
+			"name": "BLUESPAWN GODSLAYER",
+			"source": "SpawnofTiamat",
+			"page": 0,
+			"size": "H",
+			"type": {
+				"type": "giant",
+				"tags": [
+					"dragonspawn"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 19,
+					"from": [
+						"natural armor",
+						"{@item shield|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 126,
+				"formula": "11d12 + 55"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 23,
+			"dex": 15,
+			"con": 20,
+			"int": 10,
+			"wis": 12,
+			"cha": 9,
+			"save": {
+				"dex": "+7",
+				"con": "+10",
+				"wis": "+6"
+			},
+			"skill": {
+				"athletics": "+11",
+				"perception": "+6"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 16,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from non-magical attacks"
+				}
+			],
+			"immune": [
+				"lightning"
+			],
+			"conditionImmune": [
+				"paralyzed"
+			],
+			"languages": [
+				"Draconic"
+			],
+			"trait": [
+				{
+					"name": "Languages, Draconic",
+					"entries": [
+						"Challenge 15 (13,000 XP)"
+					]
+				},
+				{
+					"name": "Blessed of Tiamat",
+					"entries": [
+						"The bluespawn has advantage on saving throws against being {@condition charmed}, and magic can't put the bluespawn to sleep."
+					]
+				},
+				{
+					"name": "Electrified Weapons",
+					"entries": [
+						"Any melee weapon the bluespawn godslayer wields deals an extra 7 ({@damage 2d6}) lightning damage on a hit (included in the attack)."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The bluespawn godslayer has advantage on saving throws against spells and other magical effects."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The bluespawn godslayer makes three melee attacks or two ranged attacks."
+					]
+				},
+				{
+					"name": "• +1 Dragon Slayer Greatsword",
+					"entries": [
+						"{@atk mw} {@hit 12} to hit, reach 15 ft., one target. {@h}28 ({@damage 6d6 + 7}) slashing damage plus 7 ({@damage 2d6}) lightning damage plus 10 ({@damage 3d6}) slashing damage if it is a dragon."
+					]
+				},
+				{
+					"name": "• Bite",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 10 ft., one target. {@h}13 ({@damage 2d6 + 6}) piercing damage."
+					]
+				},
+				{
+					"name": "• Shield Bash",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 10 ft., one creature. {@h}15 ({@damage 2d8 + 6}) bludgeoning damage plus 7 ({@damage 2d6}) lightning damage. If the target is a Medium or smaller creature, it must succeed on a {@dc 19} Strength saving throw or be knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Rock",
+					"entries": [
+						"{@atk rw} {@hit 11} to hit, range 60/240 ft., one target. {@h}28 ({@damage 4d10 + 6}) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 19} Strength saving throw or be knocked {@condition prone}."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"This draconic giant wields a dragon's skull as a shield and an enormous greatsword in its free hand. Lighting crackles across the entirety of its frame.",
+					"Bluespawn godslayers are final bosses. They specialize in brutally putting down good dragons and their draconic minions, and their greatsword makes short work of most foes who meet that criteria. "
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://vignette.wikia.nocookie.net/forgottenrealms/images/7/7a/Bluespawn_godslayer_4e.jpg/revision/latest?cb=20200311083715"
+						}
+					}
+				]
+			},
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"DR"
+			],
+			"damageTags": [
+				"B",
+				"L",
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"RW"
+			],
+			"conditionInflict": [
+				"prone"
+			]
+		},
+		{
+			"name": "BLUESPAWN STORMLIZARD",
+			"source": "SpawnofTiamat",
+			"page": 0,
+			"size": "L",
+			"type": {
+				"type": "monstrosity",
+				"tags": [
+					"dragonspawn"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 63,
+				"formula": "6d10 + 30"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 21,
+			"dex": 9,
+			"con": 20,
+			"int": 2,
+			"wis": 14,
+			"cha": 8,
+			"skill": {
+				"athletics": "+9",
+				"perception": "+6"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 16,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from non-magical attacks"
+				}
+			],
+			"immune": [
+				"lightning"
+			],
+			"cr": "9",
+			"trait": [
+				{
+					"name": "Charge",
+					"entries": [
+						"If the bluespawn stormlizard moves at least 20 feet straight toward a target and then hits it with a gore attack on the same turn, the target takes an extra 9 ({@damage 2d8}) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 17} Strength saving throw or be knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Confer Lightning Immunity",
+					"entries": [
+						"The bluespawn stormlizard can grant immunity to lightning damage to anyone riding it."
+					]
+				},
+				{
+					"name": "Saddle",
+					"entries": [
+						"The bluespawn stormlizard can carry a saddle on its back. One Medium or two Small creatures can ride on the saddle without squeezing. To make a melee attack against a target within 5 feet of the bluespawn stormlizard, they must use spears or weapons with reach. If the bluespawn stormalizard dies, creatures on the saddle are placed in unoccupied spaces within 5 feet of it."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "• Gore",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d8 + 5}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "• Lightning Arc {@recharge 5}",
+					"entries": [
+						"The bluespawn stormlizard arcs lightning in a 30-foot line that is 5 feet wide. Each creature in that cone must make a {@dc 11} Dexterity saving throw, taking 22 ({@damage 4d10}) lightning damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Electricity Link",
+					"entries": [
+						"A bluespawn stormlizard can cause a line of electricity to fire from its horn to that of another bluespawn stormlizard within 100 feet. Creatures in the line must succeed on a {@dc 11} Dexterity saving throw or take {@dice 2d10} (11) points of lightning damage."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"This rhino-like creature is covered in blue scales with a horn that crackles electricity.",
+					"Bluespawn stormlizards are used as mounts. They work in teams, sparking electricity between them. They are often fielded in mounted lances, with their riders splitting off to form a pincer movement. Their goal is to trap opponents between two different pairs of mounted units, ensuring the stormlizards' electricity link fries opponents caught between them."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://vignette.wikia.nocookie.net/forgottenrealms/images/e/e4/BluespawnStormlizard3e.jpg/revision/latest/top-crop/width/360/height/450?cb=20200103163616"
+						}
+					}
+				]
+			},
+			"traitTags": [
+				"Charge"
+			],
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"B",
+				"L"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			],
+			"conditionInflict": [
+				"prone"
+			]
+		},
+		{
+			"name": "BLUESPAWN STONEGLIDER",
+			"source": "SpawnofTiamat",
+			"page": 0,
+			"size": "M",
+			"type": {
+				"type": "monstrosity",
+				"tags": [
+					"dragonspawn"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 32,
+				"formula": "5d8 + 10"
+			},
+			"speed": {
+				"walk": 30,
+				"burrow": 30,
+				"climb": 30
+			},
+			"str": 14,
+			"dex": 16,
+			"con": 14,
+			"int": 3,
+			"wis": 14,
+			"cha": 11,
+			"skill": {
+				"perception": "+4",
+				"stealth": "+5"
+			},
+			"senses": [
+				"darkvision 60 ft.",
+				"tremorsense 60 ft."
+			],
+			"passive": 14,
+			"immune": [
+				"lightning"
+			],
+			"conditionImmune": [
+				"charmed",
+				"stunned"
+			],
+			"languages": [
+				"understands Draconic but can't speak"
+			],
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Blurred Movement",
+					"entries": [
+						"Attack rolls against the bluespawn stoneglider have disadvantage unless the bluespawn is {@condition incapacitated} or {@condition restrained}."
+					]
+				},
+				{
+					"name": "Earth Glide",
+					"entries": [
+						"The bluespawn stoneglider can burrow through nonmagical, unworked earth and stone. While doing so, the bluespawn stoneglider doesn't disturb the material it moves through."
+					]
+				},
+				{
+					"name": "Pack Tactics",
+					"entries": [
+						"The bluespawn stoneglider has advantage on an attack roll against a creature if at least one of the bluespawn stoneglider's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+					]
+				},
+				{
+					"name": "Stone Camouflage",
+					"entries": [
+						"The bluespawn stoneglider has advantage on Dexterity (Stealth) checks made to hide in rocky terrain."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}8 ({@damage 2d4 + 3}) piercing damage plus 3 ({@damage 1d6}) lightning damage and it can't take reactions until the start of its next turn."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"This four-limbed chitinous creature sports a pair of nastylooking jaws. Bluespawn Stonegliders are a curious addition to the Spawn of Tiamat. Unlike all the other spawn which seem a lot like variants of a common critter (rhinos, badgers, spiders) crossed with a dragon variant, stonegliders were inspired by termites.",
+					"Of all Tiamat's dragonspawn, these creatures are the weakest non-humanoids and thus suitable for attacking PCs in large groups. Because they can glide through stone they can attack from just about anywhere, making them particularly effective when attacking PCs trapped underground."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxITERUTExMVFRUXGB4aFxgYGBgfHhgfFxgXFxgaHhogHigiGB0lHRcVITEhJSkrMS4uFx8zODMtNygtLisBCgoKDg0OGBAQFy0dFxkrKysrKysrKysrKystLS0tKy0tNzcrKzcrNzc3LS0tKysrKystKysrNystLSstKy0rK//AABEIALoBDwMBIgACEQEDEQH/xAAcAAABBAMBAAAAAAAAAAAAAAAAAQUGBwIECAP/xABBEAACAQMCBAMEBwYFAwUBAAABAgMABBESIQUxQVEGEyIWMmFxB0JSVIGT0hQjM5GhwWJyseHwFYLRJENTY/E0/8QAGAEBAQEBAQAAAAAAAAAAAAAAAAECAwT/xAAeEQEBAQEAAwEAAwAAAAAAAAAAARECEiExQQMicf/aAAwDAQACEQMRAD8Au8CsqRaWgKKKKAooooCiiigKKKKAooooCiiigKKKKAooooCiiigKKKKAooooCiiigKKKKAooooCiiigKKKKBFpaRaWgKKKKAooooCiiigKKKKAooooCiiigKKKKAooooCiiigKKKKAooooCiiigKKKKAoooNAUUma8JrtVZVJ9THCjqe9BsUUCigRaWkWloCiig0BRSaq8Xu4wwQuoY8gTvQe9FJmloCiiigKKTNGaBaKQGloCiiigKKKKAooooCiiigKKKKAooooCikzRqoFpCaCa0Li81B1jI1LsT0B7UDf4g8QiBWIxhR6mPIHovxJO1NfgWzmkLXtzkyvkIrH3FzyA6fOov4rh8+6SAZKJ6hGuSZZDzZiOQX41alnFpRVxjAA/kKJrYoooopFpaRaWgKwkYAE7bVkxqA+NOPNrNsMoPrjkXU9m7Ug2eP8baR8WwllaMEhYsAM2OTMdsVGeE8WgvpDFNA9rfjOAzHDld8Kf7VrWRQn1CSIqfeRsZUDZge422Na/HszlVZytwjare6AwWK8klHx71rxZ1KLPxhJERAyiRtYUEnGlcgMW74qw1YGqRu71rmHzmjCTKdF0u40sNlcD7Lc81YX0ecY8+20ly7ReliRy7D47UsVLs0hNApp8R8QeCEuq53wT9gHmx7gc6yrDiviSCElS4Lg40jnTTH4yXJ2143OkHUMc/Rzb8Kj/DSCj3ISSNC38TSDJLk7uS3uqewpn4vdrK7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"
+						}
+					}
+				]
+			},
+			"traitTags": [
+				"Pack Tactics"
+			],
+			"senseTags": [
+				"D",
+				"T"
+			],
+			"languageTags": [
+				"CS",
+				"DR"
+			],
+			"damageTags": [
+				"L",
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "GREENSPAWN LEAPER",
+			"source": "SpawnofTiamat",
+			"page": 0,
+			"size": "M",
+			"type": {
+				"type": "monstrosity",
+				"tags": [
+					"dragonspawn"
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 16,
+				"formula": "3d8 + 3"
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 40
+			},
+			"str": 17,
+			"dex": 19,
+			"con": 12,
+			"int": 2,
+			"wis": 15,
+			"cha": 8,
+			"skill": {
+				"acrobatics": "+6",
+				"athletics": "+5",
+				"perception": "+4",
+				"stealth": "+6"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 14,
+			"immune": [
+				"poison"
+			],
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Saddle",
+					"entries": [
+						"The greenspawn leaper can carry a saddle on its back. One Small or two Tiny creatures can ride on the saddle without squeezing. To make a melee attack against a target within 5 feet of the greenspawn leaper, they must use spears or weapons with reach. If the greenspawn leaper dies, creatures on the saddle are placed in unoccupied spaces within 5 feet of it."
+					]
+				},
+				{
+					"name": "Standing Leap",
+					"entries": [
+						"The greenspawn leaper's long jump is up to 20 feet and its high jump is up to 10 feet, with or without a running start."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage."
+					]
+				},
+				{
+					"name": "Poison Burst {@recharge 5}",
+					"entries": [
+						"The greenspawn leaper exhales poison gas in a 5-foot radius. Each creature in that area must make a {@dc 11} Constitution saving throw, taking 7 ({@damage 2d6}) poison damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"environment": [
+				"forest"
+			],
+			"fluff": {
+				"entries": [
+					"This fiendish green dragon-like creature has long wing membranes stretching between all four limbs. It sports a grinning maw of sharp teeth and climbing claws that make it suited to forest environments.",
+					"Greenspawn leapers are another mount for Tiamat's forces. These are specifically used by greenspawn sneaks and kobolds, who are light enough to ride them. Greenspawn leapers are not particularly intelligent, which makes them somewhat disposable mounts to their riders, who will not hesitate to abandon them if the going gets rough. Conversely, greenspawn leapers are barely domesticated and have been known to eat a rider they dislike."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://vignette.wikia.nocookie.net/forgottenrealms/images/2/23/GreenspawnLeaper3e.jpg/revision/latest/top-crop/width/360/height/450?cb=20200103163741"
+						}
+					}
+				]
+			},
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"I",
+				"P"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			]
+		},
+		{
+			"name": "GREENSPAWN RAZORFIEND",
+			"source": "SpawnofTiamat",
+			"page": 0,
+			"size": "L",
+			"type": {
+				"type": "monstrosity",
+				"tags": [
+					"dragonspawn"
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 85,
+				"formula": "10d10 + 30"
+			},
+			"speed": {
+				"walk": 50,
+				"swim": 50
+			},
+			"str": 20,
+			"dex": 17,
+			"con": 16,
+			"int": 5,
+			"wis": 15,
+			"cha": 12,
+			"skill": {
+				"athletics": "+9",
+				"perception": "+6",
+				"stealth": "+7"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 16,
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"paralyzed"
+			],
+			"languages": [
+				"Draconic"
+			],
+			"cr": "10",
+			"trait": [
+				{
+					"name": "Amphibious",
+					"entries": [
+						"The greenspawn razorfiend can breathe air and water."
+					]
+				},
+				{
+					"name": "Blessed of Tiamat",
+					"entries": [
+						"The greenspawn has advantage on saving throws against being {@condition charmed}, and magic can't put the greenspawn to sleep."
+					]
+				},
+				{
+					"name": "Bonded Mount",
+					"entries": [
+						"While mounted, the greenspawn razoerfiend shares its senses with its rider, shares the amphibious trait, and can be ridden while it swims. The bonded greenspawn razoerfiend obeys its rider's commands. If dies, the rider can train a new greenspawn razoerfiend to serve as its bonded mount, a process requiring a month."
+					]
+				},
+				{
+					"name": "Confer Poison Immunity",
+					"entries": [
+						"The greenspawn razorfiend can grant immunity to poison damage to anyone riding it."
+					]
+				},
+				{
+					"name": "Saddle",
+					"entries": [
+						"The greenspawn razorfiend can carry a saddle on its back. One Medium or two Small creatures can ride on the saddle without squeezing. To make a melee attack against a target within 5 feet of the greenspawn razorfiend, they must use spears or weapons with reach. If the greenspawn razorfiend dies, creatures on the saddle are placed in unoccupied spaces within 5 feet of it."
+					]
+				},
+				{
+					"name": "Standing Leap",
+					"entries": [
+						"The greenspawn razorfiend's long jump is up to 20 feet and its high jump is up to 10 feet, with or without a running start."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The greenspawn razorfiend makes two attacks: one with its bite and one with its wingblades."
+					]
+				},
+				{
+					"name": "• Bite",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}10 ({@damage 1d10 + 5}) piercing damage plus 5 ({@damage 1d10}) poison damage."
+					]
+				},
+				{
+					"name": "• Wingblades",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d4 + 5}) slashing damage."
+					]
+				},
+				{
+					"name": "Poison Breath {@recharge 5}",
+					"entries": [
+						"The greenspawn razorfiend exhales poison gas in a 15-foot cone. Each creature in that area must make a {@dc 11} Constitution saving throw, taking 21 ({@damage 6d6}) poison damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"environment": [
+				"forest",
+				"swamp"
+			],
+			"fluff": {
+				"entries": [
+					"Leaping out of the water is a creature that appears to be a",
+					"cross between a flying fish and a green dragon, with razorsharp wing blades, slavering jaws, and a foul disposition.",
+					"If the greenspawn leaper is a mount for smaller minions of Tiamat, greenspawn razorfiends are their amphibious cousins. Larger dragonspawn use razorfiends to ambush ships and attack from the shore. Greenspawn razorfiends use brackish water that conceal their presence to the utmost advantage. They will dive in and out of water, leaping over ships to attack creatures as they pass and if need be, discharge their riders to engage opponents on land -- only to return when their acid breath recharges. "
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://vignette.wikia.nocookie.net/forgottenrealms/images/5/5f/GreenspawnRazorfiend3e.jpg/revision/latest/top-crop/width/360/height/450?cb=20200103163852"
+						}
+					}
+				]
+			},
+			"traitTags": [
+				"Amphibious"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"DR"
+			],
+			"damageTags": [
+				"I",
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			]
+		},
+		{
+			"name": "GREENSPAWN SNEAK",
+			"source": "SpawnofTiamat",
+			"page": 0,
+			"size": "S",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"dragonspawn"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"{@item leather armor|phb}",
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 14,
+				"formula": "3d6 + 3"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 7,
+			"dex": 16,
+			"con": 12,
+			"int": 11,
+			"wis": 13,
+			"cha": 11,
+			"skill": {
+				"deception": "+2",
+				"perception": "+3",
+				"stealth": "+5",
+				"survival": "+3"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 13,
+			"immune": [
+				"poison"
+			],
+			"languages": [
+				"Draconic"
+			],
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Amphibious",
+					"entries": [
+						"The greenspawn sneak can breathe air and water."
+					]
+				},
+				{
+					"name": "Keen Hearing and Sight",
+					"entries": [
+						"The greenspawn sneak has advantage on Wisdom (Perception) checks that rely on hearing or sight."
+					]
+				},
+				{
+					"name": "Surprise Attack",
+					"entries": [
+						"If the greenspawn sneak surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 7 ({@damage 2d6}) damage from the attack."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The greenspawn sneak makes two melee attacks."
+					]
+				},
+				{
+					"name": "• Dragonsplit",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d4 + 3}) piercing damage."
+					]
+				},
+				{
+					"name": "Vial of Poison",
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range 5/20 ft., one target. {@h}The target must make a {@dc 11} Constitution saving throw, taking 4 ({@damage 1d8}) poison damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"What you at first took for a kobold is most certainly something",
+					"more; a devious, green-scaled little humanoid with two curious blades it twirls expertly in its claws.",
+					"Greenspawn sneaks look weak but are surprisingly competent. They rely on being underestimated by opponents, concealing their features and even pretending to be kobolds if it suits their",
+					"methods. They are certainly not kobolds however, and their intelligence and coordinated tactics makes that quickly clear. Greenspawn sneaks use vials of poison to their advantage, throwing them indiscriminately into a melee knowing their greenspawn companions will not be harmed by an errant splash. "
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "data:image/jpeg;base64,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"
+						}
+					}
+				]
+			},
+			"traitTags": [
+				"Amphibious",
+				"Keen Senses"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"DR"
+			],
+			"damageTags": [
+				"I",
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			]
+		},
+		{
+			"name": "GREENSPAWN SNEAK RAID LEADER",
+			"source": "SpawnofTiamat",
+			"page": 0,
+			"size": "S",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"dragonspawn"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 19,
+					"from": [
+						"natural armor",
+						"{@item leather armor|PHB|leather}",
+						"{@item shield|PHB}"
+					]
+				}
+			],
+			"hp": {
+				"average": 45,
+				"formula": "7d6 + 21"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 15,
+			"dex": 20,
+			"con": 16,
+			"int": 10,
+			"wis": 12,
+			"cha": 12,
+			"skill": {
+				"deception": "+4",
+				"insight": "+4",
+				"investigation": "+3",
+				"perception": "+4",
+				"persuasion": "+4",
+				"sleight of hand": "+8",
+				"stealth": "+8",
+				"survival": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 14,
+			"immune": [
+				"poison"
+			],
+			"languages": [
+				"Draconic"
+			],
+			"cr": "5",
+			"trait": [
+				{
+					"name": "Amphibious",
+					"entries": [
+						"The greenspawn sneak raid leader can breathe air and water."
+					]
+				},
+				{
+					"name": "Cunning Action",
+					"entries": [
+						"On each of its turns, the greenspawn sneak raid leader can use a bonus action to take the Dash, Disengage, or",
+						"Hide action."
+					]
+				},
+				{
+					"name": "Keen Hearing and Sight",
+					"entries": [
+						"The greenspawn sneak has advantage on Wisdom (Perception) checks that rely on hearing or sight."
+					]
+				},
+				{
+					"name": "Sneak Attack (1/Turn)",
+					"entries": [
+						"The greenspawn sneak raid leader deals an extra 7 ({@damage 2d6}) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the greenspawn sneak raid leader that isn't incapacitated and the greenspawn sneak raid leader doesn't have disadvantage on the attack roll."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The greenspawn sneak raid leader makes two melee attacks or two ranged attacks."
+					]
+				},
+				{
+					"name": "• +1 Dragonsplit",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d4 + 6}) piercing damage."
+					]
+				},
+				{
+					"name": "• Hand Crossbow",
+					"entries": [
+						"{@atk rw} {@hit 8} to hit, range",
+						"30/120 ft., one target. {@h}8 ({@damage 1d6 + 5}) piercing damage."
+					]
+				},
+				{
+					"name": "• Vial of Poison",
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range 5/20 ft., one target. {@h}The target must make a {@dc 11} Constitution saving throw, taking 4 ({@damage 1d8}) poison damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"What you at first took for a kobold is most certainly something more; a devious, green-scaled little humanoid with two curious blades it twirls expertly in its claws.",
+					"Greenspawn sneaks look weak but are surprisingly competent. They rely on being underestimated by opponents, concealing their features and even pretending to be kobolds if it suits their methods. They are certainly not kobolds however, and their intelligence and coordinated tactics makes that quickly clear. Greenspawn sneaks use vials of poison to their advantage, throwing them indiscriminately into a melee knowing their greenspawn companions will not be harmed by an errant splash. "
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "data:image/jpeg;base64,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"
+						}
+					}
+				]
+			},
+			"traitTags": [
+				"Amphibious",
+				"Keen Senses",
+				"Sneak Attack"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"DR"
+			],
+			"damageTags": [
+				"I",
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RNG",
+				"RW"
+			]
+		},
+		{
+			"name": "GREENSPAWN ZEALOT",
+			"source": "SpawnofTiamat",
+			"page": 0,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"dragonspawn"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 19,
+					"from": [
+						"natural armor",
+						"{@item chain mail|phb}",
+						"{@item shield|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 45,
+				"formula": "6d8 + 18"
+			},
+			"speed": {
+				"walk": 20
+			},
+			"str": 16,
+			"dex": 11,
+			"con": 16,
+			"int": 10,
+			"wis": 12,
+			"cha": 12,
+			"skill": {
+				"deception": "+4",
+				"perception": "+5",
+				"persuasion": "+4",
+				"religion": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 15,
+			"immune": [
+				"poison"
+			],
+			"languages": [
+				"Common",
+				"Draconic"
+			],
+			"cr": "5",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The greenspawn zealot is a 4th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 11}, {@hit 3} to hit with spell attacks). The fanatic has the following cleric spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell light}",
+								"{@spell sacred flame}",
+								"{@spell thaumaturgy}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell command}",
+								"{@spell inflict wounds}",
+								"{@spell shield of faith}"
+							],
+							"slots": 0
+						},
+						"2": {
+							"spells": [
+								"{@spell hold person}",
+								"{@spell spiritual weapon}"
+							],
+							"slots": 0
+						}
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Dragon Fanatic",
+					"entries": [
+						"The greenspawn zealot has advantage on saving throws against being {@condition charmed} or {@condition frightened}. While the greenspawn zealot can see a dragon, dragonspawn, or higher ranking Cult of the Dragon cultist friendly to it, the greenspawn zealot ignores the effects of being {@condition charmed} or {@condition frightened}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The fanatic makes two melee attacks."
+					]
+				},
+				{
+					"name": "• Heavy Mace",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one creature. {@h}7 ({@damage 1d8 + 3}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "• Shield Bash",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 10 ft., one creature. {@h}8 ({@damage 2d4 + 3}) bludgeoning damage. If the target is a Medium or smaller creature, it must succeed on a {@dc 14} Strength saving throw or be knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "• Touch of Tiamat",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one. {@h}10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the greenspawn zealot or any dragon or dragonspawn or dragon cultist creature within 30 feet regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0."
+					]
+				},
+				{
+					"name": "Light Crossbow",
+					"entries": [
+						"{@atk rw} {@hit 6} to hit, reach 80/320 ft., one creature. {@h}4 ({@damage 1d8}) piercing damage."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"This green-scaled humanoid wields a mace overhead, shouting commands. It’s arms and armor indicate that this is no mere minion of Tiamat.",
+					"Zealots are the healers of the any Tiamat strike force that specialized in redistributing hit points from their enemies to their allies. This makes them great support troops for other cultists. Greenspawn zealots' weakness is their zeal -- they normally stay in the background behind stronger troops, healing them and bolstering their morale. But if a zealot is challenged by an enemy it perceives as antithetical to Tiamat, it has difficulty restraining itself from engaging."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://vignette.wikia.nocookie.net/forgottenrealms/images/3/34/GreenspawnZealot3e.jpg/revision/latest/top-crop/width/360/height/450?cb=20200103035342"
+						}
+					}
+				]
+			},
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"DR"
+			],
+			"damageTags": [
+				"B",
+				"N",
+				"P"
+			],
+			"spellcastingTags": [
+				"CC"
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"RNG",
+				"RW"
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"conditionInflictSpell": [
+				"paralyzed"
+			]
+		},
+		{
+			"name": "REDSPAWN ARCANISS",
+			"source": "SpawnofTiamat",
+			"page": 0,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"dragonspawn"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				"studded leather and buckler shield",
+				{
+					"ac": 16,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 52,
+				"formula": "8d8 + 16"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 10,
+			"dex": 13,
+			"con": 15,
+			"int": 10,
+			"wis": 10,
+			"cha": 17,
+			"save": {
+				"int": "+3",
+				"wis": "+3"
+			},
+			"skill": {
+				"arcana": "+3",
+				"athletics": "+3",
+				"history": "+3",
+				"perception": "+3"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 13,
+			"immune": [
+				"fire"
+			],
+			"conditionImmune": [
+				"paralyzed"
+			],
+			"languages": [
+				"Common",
+				"Draconic"
+			],
+			"cr": "6",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The redspawn arcaniss is a 9th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 14}, {@hit 6} to hit with spell attacks). The redspawn arcaniss has the following sorcerer spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell control flames|XGE}",
+								"{@spell detect magic}",
+								"{@spell fire bolt}",
+								"{@spell produce flame}",
+								"{@spell true strike}"
+							]
+						}
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				},
+				{
+					"name": "Spellcasting",
+					"spells": {
+						"1": {
+							"spells": [
+								"{@spell burning hands}",
+								"{@spell chromatic orb}",
+								"{@spell magic missile}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell Aganazzar's scorcher|XGE}",
+								"{@spell continual flame}",
+								"{@spell scorching ray}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell elemental weapon}",
+								"{@spell fireball}",
+								"{@spell flame arrows|XGE}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell fire shield}",
+								"{@spell wall of fire}"
+							],
+							"slots": 2
+						}
+					},
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Blessed of Tiamat",
+					"entries": [
+						"The redspawn has advantage on saving throws against being {@condition charmed}, and magic can't put the redspawn to sleep."
+					]
+				},
+				{
+					"name": "Fire Absorption",
+					"entries": [
+						"Whenever the redspawn arcaniss is subjected to fire damage, it takes no damage and instead regains a number of hit points equal to the fire damage dealt."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Heavy Mace",
+					"entries": [
+						"{@atk mw,rw} {@hit 3} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d8}) bludgeoning damage"
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"This bright red scaly humanoid wields the power of flame in one hand, and a buckler and mace in the other.",
+					"Redspawn arcaniss are the heavy firepower of Tiamat's humanoid armies. Given their chaotic disposition, they revel in their destructive capabilities, unleashing their fiery might on everyone and everything within range. Two redspawn arcaniss are particularly deadly, as they can keep each other healed while they blast away at their opponents (and allies if they're not careful)."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://lh3.googleusercontent.com/proxy/4tUau278_8pdoN-17jv8MPVYHnv0d7gzEP7EdbKMRpwtbvpiTIctQDq054LEgQ2MxugkqoaqQG-QMfceAtPpbKDzmUrZHPvRSdDpy4imrI3iUyG59nkd0RIbQa_Gioqo"
+						}
+					}
+				]
+			},
+			"traitTags": [
+				"Damage Absorption"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C",
+				"DR"
+			],
+			"damageTags": [
+				"B"
+			],
+			"spellcastingTags": [
+				"CS"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			]
+		},
+		{
+			"name": "REDSPAWN BERSERKER",
+			"source": "SpawnofTiamat",
+			"page": 0,
+			"size": "L",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"dragonspawn"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 19,
+					"from": [
+						"natural armor",
+						"{@item leather armor|phb}",
+						"{@item shield|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 115,
+				"formula": "9d10 + 60"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 21,
+			"dex": 10,
+			"con": 23,
+			"int": 8,
+			"wis": 12,
+			"cha": 7,
+			"skill": {
+				"acrobatics": "+5",
+				"athletics": "+10",
+				"perception": "+5"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 15,
+			"immune": [
+				"fire"
+			],
+			"conditionImmune": [
+				"frightened",
+				"paralyzed"
+			],
+			"languages": [
+				"Draconic"
+			],
+			"cr": "9",
+			"trait": [
+				{
+					"name": "Blessed of Tiamat",
+					"entries": [
+						"The redspawn has advantage on saving throws against being {@condition charmed}, and magic can't put the redspawn to sleep."
+					]
+				},
+				{
+					"name": "Brute",
+					"entries": [
+						"A melee weapon deals one extra die of its damage when the redspawn berserker hits with it (included in the attack)."
+					]
+				},
+				{
+					"name": "Reckless",
+					"entries": [
+						"At the start of its turn, the redspawn berserker can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The redspawn berserker makes two melee attacks."
+					]
+				},
+				{
+					"name": "• Bite",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 5}) piercing damage."
+					]
+				},
+				{
+					"name": "• Morningstar",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}16 ({@damage 2d10 + 5}) piercing damage."
+					]
+				},
+				{
+					"name": "• Shield Bash",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 10 ft., one creature. {@h}10 ({@damage 2d4 + 5}) bludgeoning damage. If the target is a Medium or smaller creature, it must succeed on a {@dc 18} Strength saving throw or be knocked {@condition prone}."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"This large red-scaled humanoid wields a shield and a wicked weapon in its hands, laying waste to its enemies with complete disregard for its own safety.",
+					"Redspawn berserkers are shock troops that make a fine complement to redspawn arcaniss on the battlefield. They are highly resilient and stubbornly aggressive, attacking any enemies within reach."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://www.worldanvil.com/uploads/images/df680186b22e1b415ceed95b9b4c244b.jpeg"
+						}
+					}
+				]
+			},
+			"traitTags": [
+				"Brute",
+				"Reckless"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"DR"
+			],
+			"damageTags": [
+				"B",
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"prone"
+			]
+		},
+		{
+			"name": "REDSPAWN BIRTHER",
+			"source": "SpawnofTiamat",
+			"page": 0,
+			"size": "H",
+			"type": {
+				"type": "monstrosity",
+				"tags": [
+					"dragonspawn"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 22,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 216,
+				"formula": "16d12 + 112"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 24,
+			"dex": 14,
+			"con": 24,
+			"int": 10,
+			"wis": 16,
+			"cha": 11,
+			"skill": {
+				"perception": "+9"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 19,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from non-magical attacks"
+				}
+			],
+			"immune": [
+				"fire"
+			],
+			"conditionImmune": [
+				"exhaustion",
+				"fatigued",
+				"paralyzed"
+			],
+			"languages": [
+				"Draconic"
+			],
+			"cr": "18",
+			"trait": [
+				{
+					"name": "Blessed of Tiamat",
+					"entries": [
+						"The redspawn has advantage on saving throws against being {@condition charmed}, and magic can't put the redspawn to sleep."
+					]
+				},
+				{
+					"name": "Heated Body",
+					"entries": [
+						"A creature that touches the redspawn birther or hits it with a melee attack while within 5 feet of it takes 10 ({@damage 3d6}) fire damage."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The redspawn birther has advantage on saving throws against spells and other magical effects."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 13} to hit, reach 10 ft., one target. {@h}40 ({@damage 6d10 + 7}) piercing damage plus 10 ({@damage 3d6}) fire damage. If the target is a creature, it is {@condition grappled} (escape {@dc 21}). Until this grapple ends, the target is {@condition restrained}, and the redspawn birther can't bite another target."
+					]
+				},
+				{
+					"name": "Swallow",
+					"entries": [
+						"The redspawn birther makes one bite attack against a Medium or smaller creature it is grappling. If the attack hits, that creature takes the bite's damage and is swallowed, and the grapple ends. While swallowed, the creature is {@condition blinded} and {@condition restrained}, it has total cover against attacks and other effects outside the redspawn birther, and it takes 21 ({@damage 6d6}) fire damage at the start of each of the redspawn birther's turns. If the redspawn birther takes 30 damage or more on a single turn from a creature inside it, the redspawn birther must succeed on a {@dc 21} Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall {@condition prone} in a space within 10 feet of the redspawn birther. If the redspawn birther dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse using 15 feet of movement, exiting {@condition prone}."
+					]
+				},
+				{
+					"name": "Create Dragonspawn",
+					"entries": [
+						"A creature that dies in the redspawn birther's gullet instantly transforms into a living dragonspawn under the redspawn birther's control. The transformation of the body can be undone only by a wish spell. The redspawn birther spends one round {@condition restrained} as it vomits up the creature. The creature falls {@condition prone} in a space within 10 feet of the redspawn birther"
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"This large reptilian creature stands on powerful hindlegs with a giant maw filled with sharp teeth. ",
+					"If Tiamat is the Mother of Dragons, the redspawn birthers are her many daughters. Redspawn birthers' toxic gullets use intense magical heat to break down and combine beings they consume into other dragonspawn. The end result looks like a combination of the creature's basic form (humanoid, quadruped, etc.) and one of the many dragon types. The type of dragon type varies based on the creature's personality, appearance, magic items, or even its favorite color. Perhaps Tiamat herself makes the decision. Whatever the case, the birther vomits forth a new Spawn of Tiamat once combat is over."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://vignette.wikia.nocookie.net/forgottenrealms/images/1/17/RedspawnBirther3e.jpg/revision/latest/top-crop/width/360/height/450?cb=20200102232629"
+						}
+					}
+				]
+			},
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Swallow"
+			],
+			"languageTags": [
+				"DR"
+			],
+			"damageTags": [
+				"F",
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"blinded",
+				"grappled",
+				"restrained"
+			]
+		},
+		{
+			"name": "REDSPAWN FIREBELCHER",
+			"source": "SpawnofTiamat",
+			"page": 0,
+			"size": "L",
+			"type": {
+				"type": "monstrosity",
+				"tags": [
+					"dragonspawn"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 84,
+				"formula": "8d10 + 40"
+			},
+			"speed": {
+				"walk": 40,
+				"swim": 30
+			},
+			"str": 19,
+			"dex": 8,
+			"con": 21,
+			"int": 1,
+			"wis": 11,
+			"cha": 6,
+			"skill": {
+				"athletics": "+8",
+				"perception": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 14,
+			"resist": [
+				"fire"
+			],
+			"conditionImmune": [
+				"paralyzed"
+			],
+			"cr": "9",
+			"trait": [
+				{
+					"name": "Blessed of TIamat",
+					"entries": [
+						"The redspawn has advantage on saving throws against being {@condition charmed}, and magic can't put the redspawn to sleep."
+					]
+				},
+				{
+					"name": "Confer Fire Immunity",
+					"entries": [
+						"The redspawn firebelcher can grant immunity to fire damage to anyone riding it."
+					]
+				},
+				{
+					"name": "Saddle",
+					"entries": [
+						"The redspawn firebelcher can carry a saddle on its back. One Medium or two Small creatures can ride on the saddle without squeezing. To make a melee attack against a target within 5 feet of the redspawn firebelcher, they must use spears or weapons with reach. If the redspawn firebelcher dies, creatures on the saddle are placed in unoccupied spaces within 5 feet of it."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) piercing damage plus 3 ({@damage 1d6}) fire damage."
+					]
+				},
+				{
+					"name": "Fire Breath {@recharge 5}",
+					"entries": [
+						"The redspawn firebelcher exhales fire in a 15-foot cone. Each creature in that area must make a {@dc 11} Dexterity saving throw, taking 24 ({@damage 7d6}) fire damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"environment": [
+				"mountain",
+				"volcanic"
+			],
+			"fluff": {
+				"entries": [
+					"This wingless dragon-like being trails flame from its jaws. Redspawn firebelchers are mounts for other dragonspawn, particularly against fire-vulnerable targets or hot environments like volcanos and lava flows. "
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/Bira/octopus-carnival/master/assets/wir-mm-4e-redspawn.png"
+						}
+					}
+				]
+			},
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"F",
+				"P"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			]
+		},
+		{
+			"name": "WHITESPAWN HORDELING",
+			"source": "SpawnofTiamat",
+			"page": 0,
+			"size": "S",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"dragonspawn"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 11,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 5,
+				"formula": "2d6 - 2"
+			},
+			"speed": {
+				"walk": 40,
+				"fly": 20
+			},
+			"str": 11,
+			"dex": 10,
+			"con": 14,
+			"int": 4,
+			"wis": 9,
+			"cha": 9,
+			"skill": {
+				"perception": "+2",
+				"stealth": "+3"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 12,
+			"immune": [
+				"cold"
+			],
+			"languages": [
+				"Draconic"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Pack Tactics",
+					"entries": [
+						"The whitespawn hordeling has advantage on an attack roll against a creature if at least one of the whitespawn hordeling's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The whitespawn hordeling makes two attacks: one with its bite and one with its shortsword."
+					]
+				},
+				{
+					"name": "• Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d4}) slashing damage."
+					]
+				},
+				{
+					"name": "• Bite",
+					"entries": [
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d4}) piercing damage."
+					]
+				},
+				{
+					"name": "Dart",
+					"entries": [
+						"{@atk rw} {@hit 2} to hit, range 20/60 ft., one target. {@h}2 ({@damage 1d4}) piercing damage."
+					]
+				},
+				{
+					"name": "Frost Breath {@recharge}",
+					"entries": [
+						"The whitespawn hordeling exhales a 15-foot cone of cold air. Each creature in that area must succeed on a {@dc 10} Dexterity saving throw, taking 5 ({@damage 2d4}) cold damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"environment": [
+				"arctic"
+			],
+			"fluff": {
+				"entries": [
+					"This small humanoid looks like a miniature white dragon armed with bone swords.",
+					"Whitespawn hordelings are spies and cannon fodder in arctic regions. They're called \"hordelings\" for a reason -- a horde can include up to 150 members. Their diminutive size is a critical advantage in hollowed out icebergs, making them useful spies and scouts. "
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://vignette.wikia.nocookie.net/forgottenrealms/images/5/50/WhitespawnHordeling3e.jpg/revision/latest/top-crop/width/360/height/450?cb=20200420022054"
+						}
+					}
+				]
+			},
+			"traitTags": [
+				"Pack Tactics"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"DR"
+			],
+			"damageTags": [
+				"C",
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RW",
+				"THW"
+			]
+		},
+		{
+			"name": "WHITESPAWN HUNTER",
+			"source": "SpawnofTiamat",
+			"page": 0,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"dragonspawn"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"{@item breastplate|PHB}"
+					]
+				}
+			],
+			"hp": {
+				"average": 39,
+				"formula": "6d8 + 12"
+			},
+			"speed": {
+				"walk": 20
+			},
+			"str": 15,
+			"dex": 12,
+			"con": 14,
+			"int": 8,
+			"wis": 13,
+			"cha": 10,
+			"skill": {
+				"nature": "+1",
+				"perception": "+3",
+				"stealth": "+3",
+				"survival": "+3"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 13,
+			"immune": [
+				"cold"
+			],
+			"conditionImmune": [
+				"paralyzed"
+			],
+			"languages": [
+				"Common",
+				"Draconic"
+			],
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Blessed of TIamat",
+					"entries": [
+						"The whitespawn has advantage on saving throws against being {@condition charmed}, and magic can't put the whitespawn to sleep."
+					]
+				},
+				{
+					"name": "Ice Walk",
+					"entries": [
+						"The whitespawn hunter can move across and climb icy surfaces without needing to make an ability check. Additionally, difficult terrain composed of ice or snow doesn't cost it extra moment."
+					]
+				},
+				{
+					"name": "Keen Hearing and Sight",
+					"entries": [
+						"The whitespawn hunter has advantage on Wisdom (Perception) checks that rely on hearing or sight."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The whitespawn hunter makes two melee attacks."
+					]
+				},
+				{
+					"name": "• Ranseur",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 10 ft., one target. {@h}7 ({@damage 2d4 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "Longbow",
+					"entries": [
+						"{@atk rw} {@hit 3} to hit, ranged 150/600 ft., one target. {@h}5 ({@damage 1d8 + 1}) piercing damage."
+					]
+				}
+			],
+			"environment": [
+				"arctic"
+			],
+			"fluff": {
+				"entries": [
+					"This humanoid version of a white dragon has a cruel intelligence to its features and ready weapons in its claws.",
+					"In the wild, a typical hunting party consists of two hunters, a berserker, and two iceskidders. The hunters make up the bulk of a hunting party, with berserkers as the leaders and iceskidders as mounts."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://vignette.wikia.nocookie.net/forgottenrealms/images/4/49/WhitespawnBerserker3e.jpg/revision/latest/top-crop/width/360/height/450?cb=20200420021713"
+						}
+					}
+				]
+			},
+			"traitTags": [
+				"Keen Senses"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"DR"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"RNG",
+				"RW"
+			]
+		},
+		{
+			"name": "WHITESPAWN HUNTER-BERSERKER",
+			"source": "SpawnofTiamat",
+			"page": 0,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"dragonspawn"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item breastplate|PHB}"
+					]
+				}
+			],
+			"hp": {
+				"average": 84,
+				"formula": "8d8 + 48"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 20,
+			"dex": 14,
+			"con": 22,
+			"int": 6,
+			"wis": 12,
+			"cha": 13,
+			"skill": {
+				"animal handling": "+4",
+				"perception": "+4",
+				"survival": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 14,
+			"immune": [
+				"cold"
+			],
+			"conditionImmune": [
+				"paralyzed"
+			],
+			"languages": [
+				"Common",
+				"Draconic"
+			],
+			"cr": "7",
+			"trait": [
+				{
+					"name": "Blessed of TIamat",
+					"entries": [
+						"The whitespawn has advantage on saving throws against being {@condition charmed}, and magic can't put the whitespawn to sleep."
+					]
+				},
+				{
+					"name": "Ice Walk",
+					"entries": [
+						"The whitespawn berserker can move across and climb icy surfaces without needing to make an ability check. Additionally, difficult terrain composed of ice or snow doesn't cost it extra moment."
+					]
+				},
+				{
+					"name": "Keen Hearing and Sight",
+					"entries": [
+						"The whitespawn hunter has advantage on Wisdom (Perception) checks that rely on hearing or sight."
+					]
+				},
+				{
+					"name": "Reckless",
+					"entries": [
+						"At the start of its turn, the whitespawn berserker can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The whitespawn berserker makes two melee attacks or two ranged attacks."
+					]
+				},
+				{
+					"name": "• Chain",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}11 ({@damage 2d6 + 4}) slashing damage. The target is {@condition grappled} (escape {@dc 15}) if the whitespawn berserker isn't already grappling a creature. Until this grapple ends, the target is {@condition restrained} and takes 7 ({@damage 2d6}) piercing damage at the start of each of its turns."
+					]
+				},
+				{
+					"name": "Longbow",
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, ranged 150/600 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage."
+					]
+				}
+			],
+			"environment": [
+				"arctic"
+			],
+			"fluff": {
+				"entries": [
+					"This humanoid version of a white dragon has a cruel intelligence to its features and ready weapons in its claws.",
+					"In the wild, a typical hunting party consists of two hunters, a berserker, and two iceskidders. The hunters make up the bulk of a hunting party, with berserkers as the leaders and iceskidders as mounts."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://vignette.wikia.nocookie.net/forgottenrealms/images/4/49/WhitespawnBerserker3e.jpg/revision/latest/top-crop/width/360/height/450?cb=20200420021713"
+						}
+					}
+				]
+			},
+			"traitTags": [
+				"Keen Senses",
+				"Reckless"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"DR"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"RNG",
+				"RW"
+			],
+			"conditionInflict": [
+				"grappled",
+				"restrained"
+			]
+		},
+		{
+			"name": "WHITESPAWN ICESKIDDER",
+			"source": "SpawnofTiamat",
+			"page": 0,
+			"size": "L",
+			"type": {
+				"type": "monstrosity",
+				"tags": [
+					"dragonspawn"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 85,
+				"formula": "9d10 + 36"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 22,
+			"dex": 10,
+			"con": 18,
+			"int": 2,
+			"wis": 14,
+			"cha": 7,
+			"skill": {
+				"athletics": "+10",
+				"perception": "+6"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 17,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from non-magical attacks"
+				}
+			],
+			"immune": [
+				"cold"
+			],
+			"cr": "9",
+			"trait": [
+				{
+					"name": "Confer Cold Immunity",
+					"entries": [
+						"The whitespawn iceskidder can grant immunity to cold damage to anyone riding it."
+					]
+				},
+				{
+					"name": "Ice Walk",
+					"entries": [
+						"The whitespawn iceskidder can move across and climb icy surfaces without needing to make an ability check. Additionally, difficult terrain composed of ice or snow doesn't cost it extra moment."
+					]
+				},
+				{
+					"name": "Saddle",
+					"entries": [
+						"The whitespawn iceskidder can carry a saddle on its back. One Medium or two Small creatures can ride on the saddle without squeezing. To make a melee attack against a target within 5 feet of the whitespawn iceskidder, they must use spears or weapons with reach. If the whitespawn iceskidder dies, creatures on the saddle are placed in unoccupied spaces within 5 feet of it."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}15 ({@damage 2d8 + 6}) piercing damage."
+					]
+				},
+				{
+					"name": "Cold Breath {@recharge 5}",
+					"entries": [
+						"The whitespawn iceskidder exhales an icy blast of hail in a 15-foot cone. Each creature in that area must make a {@dc 16} Constitution saving throw, taking 22 ({@damage 5d8}) cold damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"environment": [
+				"arctic"
+			],
+			"fluff": {
+				"entries": [
+					"This curious-looking creature is highly adapted to the arctic environment. What may once have been wings now act as sails. Its long hind claws curve backward to act as skates, with its flexible bony tail as a rudder.",
+					"Iceskidders act as mounts for the other whitespawn species. Large enough to ferry supplies and troops, iceskidders are particularly suited to long sheets of ice. They are used by whitespawn when lakes freeze over, conducting lightning raids against humanoids along the shoreline."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://vignette.wikia.nocookie.net/forgottenrealms/images/4/43/WhitespawnIceskidder3e.jpg/revision/latest?cb=20200420021902"
+						}
+					}
+				]
+			},
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"C",
+				"P"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			]
+		}
+	]
+}
